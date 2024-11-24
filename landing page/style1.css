@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes animate {
+    from{
+        height: 150px;
+        width: 150px;
+    }
+    to{
+        height: 200px;
+        width: 200px;
+    }
+}
+
+/* header css */
+header {
+    background-color: #2874f0;
+    /* height: 56px; */
+}
+nav{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding:10px 50px; 
+}
+/* .logo:hover{
+    background-color: rgb(104, 168, 224);
+} */
+#icon {
+    height: 25px;
+    padding: 0 50px;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+#searchbar{
+    height: 30px;
+    width: 30vw;
+    border-radius: 5px;
+}
+.btn{
+    height: 32px;
+    margin:10px;
+    padding: 5PX 25px;
+    background-color: WHITE;
+    color: blue;
+    /* border: 1px solid white; */
+}
+.navigation ul{
+    display: flex;
+    height: 56px;
+    align-items: center;
+    justify-content:end;
+}
+.navigation ul li{
+    list-style: none;
+    padding:10px 20px;
+}
+.navigation ul li a{
+    color: white;
+    text-decoration: none;/*to remove underline*/
+}
+.navigation ul li:hover{
+    /* background-color: rgb(104, 168, 224); */
+    font-weight: bold;
+}
+
+/* main body css */
+main{
+    background-color: rgb(208, 230, 230);
+}
+.container{
+    height:auto;
+    width: auto;
+}
+.quick{
+    background-color: whitesmoke;
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+.quick_intro, .quick_grocery, .quick_mobiles, .quick_fashion, .quick_electronics, .quick_home, .quick_appliances, .quick_travel, .quick_toys{
+    width: 135px;
+}
+.quick_intro:hover, .quick_grocery:hover, .quick_mobiles:hover, .quick_fashion:hover, .quick_electronics:hover, .quick_home:hover, .quick_appliances:hover, .quick_travel:hover, .quick_toys:hover{
+    color: #2874f0;
+    font-weight: bold;
+}
+.slider{
+    /* background-color: rgb(11, 167, 70); */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+}
+.leftBtn{
+    height: 100px;
+    width: 50px;
+    background-color: white;
+    font-size: 50px;
+    /* position: absolute; */
+    
+}
+.rightBtn{
+    height: 100px;
+    width: 50px;
+    background-color: white;
+    font-size: 50px;
+}
+.slider img{
+    height:350px;
+    width: 100%;
+}
+.offers{
+    background-color: whitesmoke;
+    height: 250px;
+    width: 98%;
+    margin: 10px 10px;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    align-items: center;
+    /* overflow: scroll; to add scroll bar horizontally */
+}
+.deals{
+    background-color: whitesmoke;
+    height: 250px;
+    width: 98%;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+/* footer css */
+
+.information{
+    background-color:#fff;
+    height: auto;
+    padding: 20px;   
+    color: #878787;         
+}
+.foot{
+    background-color: #172337;
+    height: 200px;
+    display: flex;
+    padding: 50px;
+    color: antiquewhite;
+    justify-content:space-between;
+}
+.foot .about a,.help a,.policy a,.social a{
+    color: white;
+    text-decoration: none;
+}
+.foot .about a:hover,.help a:hover,.policy a:hover,.social a:hover{
+    color: cadetblue;
+}
+.mail ul li{
+    list-style: none;
+    text-decoration: none;
+} 
+.address ul li{
+    list-style: none;
+    text-decoration: none;
+}

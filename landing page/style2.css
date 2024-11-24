@@ -1,0 +1,36 @@
+/*This means that when the width of website is smaller than 1250 px then below properties is applied*/
+@media screen and (max-width:1250px) {  
+    body{
+        background-color:blue;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+    }
+    .navigation ul{
+        justify-content: center;
+        padding: 5px 20px;
+        height: 50px;
+    }
+    .quick img{
+        height: 50px;
+        width: 50px;   
+    }
+    .slider{
+        height: auto;
+        width: 80vw;
+    }
+    .offers img{
+        height: 75px;
+        width: 75px;
+    }
+    .deals img{
+        height: 75px;
+        width: 75px;
+    }
+}
